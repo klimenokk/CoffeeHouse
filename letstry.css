@@ -1,0 +1,204 @@
+body
+{
+	margin:0;
+}
+
+.intro /*задаём размер блока и указываем цвет*/
+{
+	width:100%;
+	height:100vh;
+	background:url("fon.png") center no-repeat;
+	-webkit-background-size:cover;
+	background-size:cover;
+}
+
+/*Container*/
+.container
+{
+	width:100%;
+	max-width:1350px;
+	margin:0 auto;
+	
+}
+
+.header__inner
+{
+	padding-top:2%;
+}
+
+
+/*Nav*/
+.nav
+{
+	font-family: 'Arial', cursive;
+	display: flex;
+	width: 99%;
+	height: 80%;
+	text-align:center;
+	font-size:22px;
+}
+
+.nav__link
+{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+.nav__link:hover 
+{
+	color:#F5CA87;
+}
+
+#pic
+{
+	margin-left:9%;
+	margin-top:-1%;
+}
+
+#pic1
+{
+	margin-top:-6px;
+}
+
+#pic3
+{
+	margin-top:-1%;
+	margin-left:20px;
+}
+
+#pic4
+{
+	margin-top:-1%;
+	margin-left:28%;
+}
+
+#text1
+{
+	margin-left:1%;
+}
+
+#text
+{
+	margin-left:20px;
+}
+
+#text2
+{
+	margin-left:1%;
+}
+
+.imgg
+{
+	display:block;
+	margin-left: auto;
+    margin-right: auto;
+	width:5%;
+}
+
+*,
+*:after,
+*:before
+{
+	box-sizing: border-box;
+}
+
+.container1
+{
+	color: #F5CA87;
+	width:100%;
+	max-width:1350px;
+	margin:0 auto;
+	font-family: 'Arial', cursive;
+	font-size: 35px;
+}
+
+.rect
+{
+	margin-top:-85px;
+}
+
+.txt
+{
+	font-family: 'Arial', cursive;
+	color: #fff;
+	font-size: 3vh;
+	margin-top:13px;
+}
+
+#upp
+{
+	text-transform: uppercase;
+}
+
+.pick
+{
+	opacity: 60%;
+	margin-top:-14%;
+}
+
+.btm
+{
+	display:inline-block;
+	vertical-align:top;
+	border:5px solid #F5CA87;
+	padding:17px 22px;
+	color:#FFFFFF;
+	font-family: 'Arial', cursive;
+	font-size:20px;
+	text-decoration:none;
+	background-color:#F5CA87;
+	text-transform:uppercase;
+}
+
+.button-wrapper
+{
+	margin-top:17%;
+}
+
+#tell
+{
+	margin-left:20%;
+	margin-top:-3.75%;
+}
+
+#mobi
+{
+	margin-left:25%;
+	font-size:20px;
+	font-family: 'Arial', cursive;
+	color: #FFFFFF;
+	margin-top:-3%;
+}
+
+.textik
+{
+	
+	padding-top:10%;
+}
+
+#img2
+{
+	margin-left:7%;
+}
+
+#ttx
+{
+	color: #FFFFFF;      
+	font-size:17px;
+	font-weight: 200;
+	font-family: 'Arial', cursive;
+	padding-top:11%;
+	
+}
+
+.imagessss
+{
+	display:flex;
+	flex-direction:row;
+}
+
+#ttx
+{
+	margin-left:1%;
+}
